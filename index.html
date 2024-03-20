@@ -8,6 +8,7 @@
 		var link = document.createElement('link');
 		link.rel = 'stylesheet';
 		link.href = './assets/bootstrap/bootstrap.css';
+		link.async = true; // Ajouter cette ligne pour charger de manière asynchrone
 
 		// Attacher la balise link au head du document
 		document.head.appendChild(link);
